@@ -23,8 +23,8 @@ CREATE TABLE characters (
   name TEXT,
   motto TEXT,
   species TEXT,
-  author INTEGER,
-  series INTEGER
+  author_id INTEGER,
+  series_id INTEGER
 );
 CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
